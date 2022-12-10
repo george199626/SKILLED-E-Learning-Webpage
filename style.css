@@ -1,0 +1,265 @@
+/* Mobile Styles */
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#tablet-img {
+  display: none;
+}
+#desk-img {
+  display: none;
+}
+#mobile-img {
+  max-width: 100%;
+}
+.main {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  width: 100vw;
+  height: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+}
+.top-content {
+  padding: 16px;
+}
+.bottom-content {
+  padding: 16px;
+}
+#check-out-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+}
+.courses-div {
+  width: 100%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 80px;
+  background: #13183f;
+}
+#footer-button {
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#footer-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-radius: 28px;
+}
+#skilled-footer {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  color: #ffffff;
+}
+.courses-div-header {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #13183f;
+}
+.courses-div-paragraph {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #83869a;
+}
+.courses-div-a {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  text-decoration: none;
+}
+.courses-div-a:hover {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffa7c3;
+}
+#check-out-div h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffffff;
+}
+#top-content-button {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  width: 167px;
+  height: 56px;
+  border-radius: 32px;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#top-content-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+}
+.top-content p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+.top-content h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #13183f;
+}
+#skilled-header {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+  text-decoration: none;
+}
+#header-button {
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 28px;
+  background: #13183f;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#header-button:hover {
+  background: #666ca3;
+  border-radius: 28px;
+}
+
+/* Tablet Styles */
+
+@media screen and (min-width: 768px) {
+  #mobile-img {
+    display: none;
+  }
+  #tablet-img {
+    display: block;
+    margin-top: -150px;
+  }
+  .top-content {
+    display: flex;
+  }
+  .img-div {
+    width: 400px;
+    height: 500px;
+  }
+  #check-out-div {
+    margin-top: 5px;
+    margin: 3px;
+    height: 259px;
+    width: 49%;
+  }
+  .courses-div {
+    margin: 3px;
+    height: 259px;
+    width: 49%;
+  }
+  .bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1180px) {
+  .header {
+    padding: 29px 150px;
+  }
+  .top-content {
+    padding: 0px 150px;
+  }
+  #tablet-img {
+    display: none;
+  }
+  #desk-img {
+    display: block;
+    max-width: 100%;
+  }
+  .img-div {
+    width: 800px;
+    height: 100%;
+  }
+  .bottom-content {
+    padding: 0px 150px;
+  }
+  #check-out-div {
+    width: 30%;
+    height: 322px;
+  }
+  .courses-div {
+    height: 322px;
+    width: 30%;
+  }
+  .footer {
+    padding: 29px 150px;
+  }
+}
